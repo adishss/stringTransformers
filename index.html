@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Transformers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="enter the sentence with spaces (alphanumeric)"
+        value="this is a normal sentence to transform"
+      />
+      <div class="transformed-output">
+        <label>Lower Case</label>
+        <span id="lowercase"></span>
+      </div>
+      <div class="transformed-output">
+        <label>Upper Case</label>
+        <span id="uppercase"></span>
+      </div>
+      <div class="transformed-output">
+        <label>Camel Case</label>
+        <span id="camelcase"></span>
+      </div>
+      <div class="transformed-output">
+        <label>Pascal Case</label>
+        <span id="pascalcase"></span>
+      </div>
+    </div>
+    <div class="transformed-output">
+      <label>Snake Case</label>
+      <span id="snakecase"></span>
+    </div>
+    <div class="transformed-output">
+      <label>Kebab Case</label>
+      <span id="kebabcase"></span>
+    </div>
+    <div class="transformed-output">
+      <label>Trim</label>
+      <span id="trim"></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

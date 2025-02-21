@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.transformed-output {
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: beige;
+  padding: 15px;
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.transformed-output label {
+  font-size: 15px;
+  position: absolute;
+  left: 14px;
+  top: -8px;
+  background-color: black;
+  color: white;
+  padding: 0 5px;
+}
